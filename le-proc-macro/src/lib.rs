@@ -5,3 +5,6 @@ use proc_macro::TokenStream;
 pub fn derive_answer_fn(_item: TokenStream) -> TokenStream {
     "fn answer() -> u32 { 42 }".parse().unwrap()
 }
+
+#[test]
+fn lolwut() { }
