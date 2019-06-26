@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "le-main-crate",
+  "le-proc-macro",
+]
